@@ -84,7 +84,7 @@ class TopicsScreen extends StatelessWidget {
                                 color: blackCLr
                             ),
                             Shadow( // topLeft
-                                offset: Offset(-2.5, 2.5),
+                                offset: Offset(-1.5, 1.5),
                                 color: blackCLr
                             ),
                           ]
