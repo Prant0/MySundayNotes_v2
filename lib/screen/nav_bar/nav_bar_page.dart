@@ -19,8 +19,8 @@ class NavBarPage extends StatefulWidget {
 }
 
 class _NavBarPageState extends State<NavBarPage> {
-  int selectedItem = 0;
-  PageController pageController = PageController();
+  int selectedItem = 1;
+  PageController pageController = PageController(initialPage: 1);
   List<Widget> pages = [
     HomePage(),
     CategoriesPage(id: 1),
@@ -57,7 +57,7 @@ class _NavBarPageState extends State<NavBarPage> {
 
   @override
   void initState() {
-    loadDrawer();
+   // loadDrawer();
   }
 
 
@@ -68,9 +68,11 @@ class _NavBarPageState extends State<NavBarPage> {
       body: PageView(physics: NeverScrollableScrollPhysics(),
         controller: pageController,
         children: pages,
+
         onPageChanged: onPageChange,
       ),
       bottomNavigationBar: SizedBox(
+
         height: MediaQuery.of(context).size.height * 0.1,
         child: BottomAppBar(
 

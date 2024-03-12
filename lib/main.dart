@@ -62,8 +62,8 @@ class MyApp extends StatelessWidget {
             titleSmall:  myStyle(tSmall,yellowDark,FontWeight.w600),
           )
         ),
-      //  home: SplashScreen()
-        home:NavBarPage()
+      home: SplashScreen()
+       // home:NavBarPage()
       ),
     );
   }

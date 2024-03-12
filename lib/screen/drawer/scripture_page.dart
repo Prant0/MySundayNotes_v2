@@ -1,6 +1,5 @@
 import 'dart:convert';
 import 'dart:io';
-
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
@@ -103,7 +102,7 @@ bool isLoading=false;
 
          Expanded(
               flex: 15,
-              child:isLoading==true?Image.asset("assets/loader.gif"):  GridView.builder(
+              child:isLoading==true?Image.asset("assets/loader.gif",height: 100,width: 100,):  GridView.builder(
                 physics: BouncingScrollPhysics(),
                 gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
                   crossAxisCount: 2,

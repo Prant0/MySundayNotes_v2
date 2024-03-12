@@ -97,7 +97,7 @@ class _HomePageState extends State<HomePage> {
                       mainAxisAlignment: MainAxisAlignment.end,
                       children: [
 
-          Visibility(
+          /*Visibility(
             visible: isAnimation=true,
             child: Stack(
                           children: [
@@ -168,7 +168,7 @@ class _HomePageState extends State<HomePage> {
               },
             ),
           ),
-          SizedBox(height: 100),
+          SizedBox(height: 100),*/
                       ],
                     ),
         ),

@@ -43,7 +43,6 @@ dependencies:
   webview_flutter: ^4.7.0
   modal_progress_hud_nsn:
   flutter_html:
-  asset_webview: ^1.0.0
   carousel_slider:
   animated_text_kit: ^4.2.2
   fluttertoast: ^8.2.4

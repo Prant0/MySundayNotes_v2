@@ -124,8 +124,7 @@ think may interest you.</span></p>
 style='font-size:12.0pt;font-family:"Arial",sans-serif;color:black'>Website: MySundayNotes’s site, which can be accessed via this URL: mysundaynotes.com</span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;line-height:normal;background:white'><span
-style='font-size:12.0pt;font-family:"Arial",sans-serif;color:black'>You: a
-person or entity that is registered with My SundayNotes to use the Services.</span></p>
+style='font-size:12.0pt;font-family:"Arial",sans-serif;color:black'>You: a person or entity that is registered with My SundayNotes to use the Services.</span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;line-height:24.75pt;background:
 white'><b><span style='font-size:22.5pt;font-family:Roboto;color:#4B4848;
@@ -143,7 +142,7 @@ order, subscribe to our newsletter, respond to a survey or fill out a form.</spa
 <ul style='margin-top:0in' type=disc>
  <li class=MsoNormal style='color:black;margin-bottom:0in;line-height:normal;
      background:white'><span style='font-size:12.0pt;font-family:"var(--list--font-family)",serif'>Name
-     / Username</span></li>
+     Username</span></li>
 </ul>
 
 <p class=MsoNormal style='margin-bottom:0in;line-height:normal;background:white'><span
@@ -206,8 +205,7 @@ letter-spacing:.75pt'>Do we share the information we collect with third
 parties?</span></b></p>
 
 <p class=MsoNormal style='margin-bottom:0in;line-height:normal;background:white'><span
-style='font-size:12.0pt;font-family:"Arial",sans-serif;color:black'>We may
-share the information that we collect, both personal and non-personal, with
+style='font-size:12.0pt;font-family:"Arial",sans-serif;color:black'>We may share the information that we collect, both personal and non-personal, with
 third parties such as advertisers, contest sponsors, promotional and marketing
 partners, and others who provide our content or whose products or services we
 think may interest you. We may also share it with our current and future
@@ -216,8 +214,7 @@ asset sale, or other business reorganization, we may also share or transfer
 your personal and non-personal information to our successors-in-interest.</span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;line-height:normal;background:white'><span
-style='font-size:12.0pt;font-family:"Arial",sans-serif;color:black'>We may
-engage trusted third-party service providers to perform functions and provide
+style='font-size:12.0pt;font-family:"Arial",sans-serif;color:black'>We may engage trusted third-party service providers to perform functions and provide
 services to us, such as hosting and maintaining our servers and the website,
 database storage and management, e-mail management, storage marketing, credit
 card processing, customer service, and fulfilling orders for products and
@@ -226,8 +223,7 @@ personal information, and possibly some non-personal information, with these
 third parties to enable them to perform these services for us and for you.</span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;line-height:normal;background:white'><span
-style='font-size:12.0pt;font-family:"Arial",sans-serif;color:black'>We may share
-portions of our log file data, including IP addresses, for analytics purposes
+style='font-size:12.0pt;font-family:"Arial",sans-serif;color:black'>We may share portions of our log file data, including IP addresses, for analytics purposes
 with third parties such as web analytics partners, application developers, and
 ad networks. If your IP address is shared, it may be used to estimate general
 location and other technographics such as connection speed, whether you have
@@ -237,8 +233,7 @@ what you see on the website and then provide auditing, research and reporting
 for us and our advertisers.</span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;line-height:normal;background:white'><span
-style='font-size:12.0pt;font-family:"Arial",sans-serif;color:black'>We may also
-disclose personal and non-personal information about you to government or law
+style='font-size:12.0pt;font-family:"Arial",sans-serif;color:black'>We may also disclose personal and non-personal information about you to government or law
 enforcement officials or private parties as we, in our sole discretion, believe
 necessary or appropriate in order to respond to claims, legal process
 (including subpoenas), to protect our rights and interests or those of a third
@@ -248,30 +243,24 @@ applicable court orders, laws, rules, and regulations.</span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;line-height:24.75pt;background:
 white'><b><span style='font-size:22.5pt;font-family:Roboto;color:#4B4848;
-letter-spacing:.75pt'>Where and when is information collected from customers
-and end-users?</span></b></p>
+letter-spacing:.75pt'>Where and when is information collected from customers and end-users?</span></b></p>
 
 <p class=MsoNormal style='margin-bottom:0in;line-height:normal;background:white'><span
-style='font-size:12.0pt;font-family:"Arial",sans-serif;color:black'>MySundayNotes will collect personal information that you submit to us. We may
-also receive personal information about you from third parties as described
-above.</span></p>
+style='font-size:12.0pt;font-family:"Arial",sans-serif;color:black'>MySundayNotes will collect personal information that you submit to us. We may also receive personal information about you from third parties as described above.</span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;line-height:24.75pt;background:
 white'><b><span style='font-size:22.5pt;font-family:Roboto;color:#4B4848;
 letter-spacing:.75pt'>How Do We Use The Information We Collect?</span></b></p>
 
 <p class=MsoNormal style='margin-bottom:0in;line-height:normal;background:white'><span
-style='font-size:12.0pt;font-family:"Arial",sans-serif;color:black'>Any of the
-information we collect from you may be used in one of the following ways:</span></p>
+style='font-size:12.0pt;font-family:"Arial",sans-serif;color:black'>Any of the information we collect from you may be used in one of the following ways:</span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;line-height:normal;background:white'><span
-style='font-size:12.0pt;font-family:"Arial",sans-serif;color:black'>To
-personalize your experience (your information helps us to better respond to
+style='font-size:12.0pt;font-family:"Arial",sans-serif;color:black'>To personalize your experience (your information helps us to better respond to
 your individual needs)</span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;line-height:normal;background:white'><span
-style='font-size:12.0pt;font-family:"Arial",sans-serif;color:black'>To improve
-our website (we continually strive to improve our website offerings based on
+style='font-size:12.0pt;font-family:"Arial",sans-serif;color:black'>To improve our website (we continually strive to improve our website offerings based on
 the information and feedback we receive from you)</span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;line-height:normal;background:white'><span
