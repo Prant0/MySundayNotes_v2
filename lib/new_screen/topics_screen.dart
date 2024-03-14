@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:my_sunday_notes_v2/customeList/topics_list.dart';
-import 'package:my_sunday_notes_v2/screen/drawer/custom_drawer.dart';
 import 'package:my_sunday_notes_v2/screen/drawer/scripture_page.dart';
 import 'package:my_sunday_notes_v2/widget/widget.dart';
 

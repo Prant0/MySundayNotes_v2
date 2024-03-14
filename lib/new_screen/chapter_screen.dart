@@ -42,11 +42,9 @@ class _ChapterScreenState extends State<ChapterScreen> {
               shrinkWrap: true,
               itemCount: widget.newTastamentModel.chapterList!.length,
               itemBuilder: (context, index) {
-                var data=widget.newTastamentModel.chapterList![index];
                 return GestureDetector(
                   onTap: () {
                 print("index isssss${index}");
-                    //https://mysundaynotes.com/wp-json/wp/v2/envira-gallery/6739
 
                       Navigator.of(context).push(MaterialPageRoute(
                           builder: (context) => scriptureActivity(widget.newTastamentModel.chapterList![index].id,

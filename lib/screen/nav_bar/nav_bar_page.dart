@@ -1,14 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:my_sunday_notes_v2/screen/nav_bar/book_page.dart';
 import 'package:my_sunday_notes_v2/screen/nav_bar/categories_page.dart';
-import 'package:my_sunday_notes_v2/screen/nav_bar/find_church.dart';
 import 'package:my_sunday_notes_v2/screen/nav_bar/home_page.dart';
 import 'package:my_sunday_notes_v2/screen/nav_bar/privacy_policy.dart';
 import 'package:my_sunday_notes_v2/widget/widget.dart';
-import 'package:provider/provider.dart';
 
 import '../../new_screen/topics_screen.dart';
-import '../../provider/home_provider.dart';
 
 class NavBarPage extends StatefulWidget {
 
@@ -25,8 +21,6 @@ class _NavBarPageState extends State<NavBarPage> {
     HomePage(),
     CategoriesPage(id: 1),
     TopicsScreen(),
-    //  FindChurchPage(),
-   // CategoriesPage(id: 2,)
     PrivacyPolicy()
   ];
 
@@ -36,24 +30,6 @@ class _NavBarPageState extends State<NavBarPage> {
     });
   }
 
-  loadDrawer() async {
-    try{
-      await Provider.of<HomeProvider>(context, listen: false)
-          .getSODData(15,
-      ).then((value) async {
-        await Provider.of<HomeProvider>(context, listen: false).getAllChurchData(
-          20,
-        );
-      }).then((value) async {
-        await Provider.of<HomeProvider>(context, listen: false)
-            .loadDrawerCategories();
-      }).then((value) async {
-        await Provider.of<HomeProvider>(context, listen: false).loadCategories();
-      }) ;
-    }catch(e){
-      showInToast("Check your Internet connection");
-    }
-  }
 
   @override
   void initState() {
@@ -73,7 +49,7 @@ class _NavBarPageState extends State<NavBarPage> {
       ),
       bottomNavigationBar: SizedBox(
 
-        height: MediaQuery.of(context).size.height * 0.1,
+        height: MediaQuery.of(context).size.height * 0.15,
         child: BottomAppBar(
 
           color: Colors.black,

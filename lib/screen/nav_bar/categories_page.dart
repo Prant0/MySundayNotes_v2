@@ -1,14 +1,7 @@
-import 'dart:convert';
 
-import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:my_sunday_notes_v2/model/category_model.dart';
 import 'package:my_sunday_notes_v2/new_screen/new_tastement.dart';
-import 'package:my_sunday_notes_v2/provider/home_provider.dart';
-import 'package:my_sunday_notes_v2/screen/categories_show.dart';
-import 'package:my_sunday_notes_v2/screen/drawer/custom_drawer.dart';
 import 'package:my_sunday_notes_v2/widget/widget.dart';
-import 'package:provider/provider.dart';
 
 class CategoriesPage extends StatefulWidget {
   int id;
@@ -19,7 +12,7 @@ class CategoriesPage extends StatefulWidget {
 }
 
 class _CategoriesPageState extends State<CategoriesPage> {
- // List<CategoryModel> allCategories = [];
+
 
   List newArray = [
     'Matthew',
@@ -47,47 +40,8 @@ class _CategoriesPageState extends State<CategoriesPage> {
   ];
 
 
-  List<CategoryModel> newCategories = [];
-  List<CategoryModel> oldCategories = [];
 
 
-  updateCategories() {
-    allCategories.sort((a, b) {
-
-      return a.title.replaceAll(new RegExp(r"\d"), "").trim().toLowerCase().compareTo(b.title.replaceAll(new RegExp(r"\d"), "").trim().toLowerCase());
-     //  a.title.toLowerCase().compareTo(b.title.toLowerCase());
-    });
-
-
-
-    for (int i = 0; i < allCategories.length; i++) {
-
-      newArray.contains(allCategories[i].title)
-          ? newCategories.add(allCategories[i])
-          : oldCategories.add(allCategories[i]);
-
-    }
-
-
-    this.setState(() {
-
-    });
-
-    print("Total length of old is ${oldCategories.length}");
-
-
-
-  }
-
-
-
-  @override
-  void initState() {
-
-   allCategories=widget.id==1? Provider.of<HomeProvider>(context,listen: false).sidebarCats:Provider.of<HomeProvider>(context,listen: false).allCategories;
-    updateCategories();
-
-  }
 
 
   final GlobalKey<ScaffoldState> _scaffoldKey = new GlobalKey<ScaffoldState>();
@@ -103,24 +57,11 @@ class _CategoriesPageState extends State<CategoriesPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       key: _scaffoldKey,
-      //drawer: CustomDrawer(),
+
       appBar: AppBar(
-   /*     leading: IconButton(
-          onPressed: () {
-            _scaffoldKey.currentState!.openDrawer();
-            //Navigator.of(context).pop();
-          },
-          icon: Icon(
-            Icons.menu,
-            size: 30,
-          ),
-          color: iconClr,
-        ),*/
+
         centerTitle: true,
-        /*title: Text(
-          widget.id==1?"Bible Scripture": "SOD Studies",
-          style: myStyle(25,iconClr,FontWeight.w800),
-        ),*/
+
         title: Text("MySundayNotes", style: myStyle(25,iconClr,FontWeight.w800),),
         bottom: PreferredSize(
           preferredSize: const Size.fromHeight(4.0),
@@ -134,7 +75,7 @@ class _CategoriesPageState extends State<CategoriesPage> {
       body: Container(
         width: double.infinity,
         child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
+          mainAxisAlignment: MainAxisAlignment.spaceAround,
           children: [
 
             InkWell(
@@ -142,13 +83,11 @@ class _CategoriesPageState extends State<CategoriesPage> {
 
                 var snackBar = SnackBar(content: Text('Coming Soon',style: myStyle(20,yellowDark,FontWeight.w800),),backgroundColor: blackCLr,);
                 ScaffoldMessenger.of(context).showSnackBar(snackBar,);
-              // showInToast("Coming Soon",);
-                // Navigator.of(context).push(MaterialPageRoute(builder: (context)=>CategoriesShow(categories: oldCategories,id: widget.id,isOld: true,)));
               },
               child: Container(
                 width: double.infinity,
                 alignment: Alignment.center,
-                height: MediaQuery.of(context).size.height * 0.35,
+                height: MediaQuery.of(context).size.height * 0.30,
                 child: Text(
                   widget.id==1?"OLD Testament":"SOD Studies",
                               style: TextStyle(
@@ -182,18 +121,16 @@ class _CategoriesPageState extends State<CategoriesPage> {
                         )),
               ),
             ),
-            SizedBox(height: 30,),
             InkWell(
               onTap: (){
-          //  Navigator.of(context).push(MaterialPageRoute(builder: (context)=>CategoriesShow(categories: newCategories,id: widget.id,isOld: false,)));
-                Navigator.of(context).push(MaterialPageRoute(builder: (context)=>NewTastament()));
+             Navigator.of(context).push(MaterialPageRoute(builder: (context)=>NewTastament()));
               },
               child: Stack(
                 children: [
                   Container(
                     width: double.infinity,
                     alignment: Alignment.center,
-                    height: MediaQuery.of(context).size.height * 0.35,
+                    height: MediaQuery.of(context).size.height * 0.30,
                     child: Text(
                       widget.id==1?"New Testament":  "SOD Studies",
                       style: TextStyle(
@@ -237,7 +174,6 @@ class _CategoriesPageState extends State<CategoriesPage> {
       ),
     );
   }
-  List<CategoryModel> allCategories = [];
   int page=1;
   bool hasMore=true;
   int limit=40;

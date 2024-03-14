@@ -744,7 +744,7 @@ style='font-size:12.0pt;font-family:"Arial",sans-serif;color:black'>Right to
 Know and Access. You may submit a verifiable request for information regarding
 the: (1) categories of Personal Information we collect, use, or share; (2)
 purposes for which categories of Personal Information are collected or used by
-us; (3) categories of sources from which we collect Personal Information; and
+us; (3) categories of sources from which we collect Personal Information; anda
 (4) specific pieces of Personal Information we have collected about you.</span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;line-height:normal;background:white'><span

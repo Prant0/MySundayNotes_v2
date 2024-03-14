@@ -207,24 +207,4 @@ List oldList=[
         "https://apis.mysundaynotes.com/apis/categories/Zechariah.png"
         "https://apis.mysundaynotes.com/apis/categories/Zephaniah.png"
 
-
-
- /*   "https://apis.mysundaynotes.com/apis/categories/2-John.png",
-    "https://apis.mysundaynotes.com/apis/categories/2-Peter.png",
-
-
-    "https://apis.mysundaynotes.com/apis/categories/3-John.png",
-
-*/
-
-
-
-
-
-
-
-
-
-
-
 ];

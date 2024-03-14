@@ -1,11 +1,7 @@
 
 import 'package:flutter/material.dart';
-import 'package:flutter_html/flutter_html.dart';
 import 'package:my_sunday_notes_v2/customeList/privacy_policy_text.dart';
-import 'package:my_sunday_notes_v2/screen/drawer/custom_drawer.dart';
 import 'package:my_sunday_notes_v2/widget/widget.dart';
-import 'package:webview_flutter/webview_flutter.dart';
-import 'package:html/dom.dart' as dom;
 import 'package:html/parser.dart';
 class PrivacyPolicy extends StatefulWidget {
   PrivacyPolicy({super.key});
