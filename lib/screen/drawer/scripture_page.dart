@@ -4,8 +4,8 @@ import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart';
-import 'package:my_sunday_notes_v2/widget/custome_http.dart';
-import 'package:my_sunday_notes_v2/widget/widget.dart';
+import 'package:mysundaynotes/widget/custome_http.dart';
+import 'package:mysundaynotes/widget/widget.dart';
 import 'package:path_provider/path_provider.dart';
 import 'package:share_plus/share_plus.dart';
 
@@ -159,6 +159,7 @@ bool isLoading=false;
                       setState(() {
                         title=widget.chapterList![indexNo!].title;
                       });
+                      loadData(idd);
                       print("Next Id is $indexNo ${idd} $title");
                     }catch(e){
                       indexNo=indexNo!+1;
@@ -179,6 +180,7 @@ bool isLoading=false;
                       setState(() {
                         title=widget.chapterList![indexNo!].title;
                       });
+                      loadData(idd);
                       print("Next Id is $indexNo ${idd} $title");
                     }catch(e){
                       indexNo=indexNo!-1;

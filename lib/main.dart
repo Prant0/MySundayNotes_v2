@@ -1,8 +1,8 @@
 import 'dart:io';
 
 import 'package:flutter/material.dart';
-import 'package:my_sunday_notes_v2/screen/splash_screen.dart';
-import 'package:my_sunday_notes_v2/widget/widget.dart';
+import 'package:mysundaynotes/screen/splash_screen.dart';
+import 'package:mysundaynotes/widget/widget.dart';
 
 
 

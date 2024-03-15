@@ -1,7 +1,7 @@
 
 import 'package:flutter/material.dart';
-import 'package:my_sunday_notes_v2/screen/nav_bar/nav_bar_page.dart';
-import 'package:my_sunday_notes_v2/widget/widget.dart';
+import 'package:mysundaynotes/screen/nav_bar/nav_bar_page.dart';
+import 'package:mysundaynotes/widget/widget.dart';
 
 class SplashScreen extends StatefulWidget {
   const SplashScreen({Key? key}) : super(key: key);

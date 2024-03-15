@@ -1,7 +1,7 @@
 
 import 'package:flutter/material.dart';
-import 'package:my_sunday_notes_v2/new_screen/new_tastement.dart';
-import 'package:my_sunday_notes_v2/widget/widget.dart';
+import 'package:mysundaynotes/new_screen/new_tastement.dart';
+import 'package:mysundaynotes/widget/widget.dart';
 
 class CategoriesPage extends StatefulWidget {
   int id;

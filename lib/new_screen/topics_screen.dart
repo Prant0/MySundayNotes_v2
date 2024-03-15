@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:my_sunday_notes_v2/customeList/topics_list.dart';
-import 'package:my_sunday_notes_v2/screen/drawer/scripture_page.dart';
-import 'package:my_sunday_notes_v2/widget/widget.dart';
+import 'package:mysundaynotes/customeList/topics_list.dart';
+import 'package:mysundaynotes/screen/drawer/scripture_page.dart';
+import 'package:mysundaynotes/widget/widget.dart';
 
 class TopicsScreen extends StatelessWidget {
   TopicsScreen({super.key});

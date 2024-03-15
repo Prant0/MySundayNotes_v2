@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:my_sunday_notes_v2/customeList/custome_list.dart';
-import 'package:my_sunday_notes_v2/new_screen/new_tastement.dart';
-import 'package:my_sunday_notes_v2/screen/drawer/scripture_page.dart';
-import 'package:my_sunday_notes_v2/widget/widget.dart';
+import 'package:mysundaynotes/customeList/custome_list.dart';
+import 'package:mysundaynotes/new_screen/new_tastement.dart';
+import 'package:mysundaynotes/screen/drawer/scripture_page.dart';
+import 'package:mysundaynotes/widget/widget.dart';
 
 
 class ChapterScreen extends StatefulWidget {

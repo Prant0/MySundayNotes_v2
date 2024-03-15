@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:my_sunday_notes_v2/screen/nav_bar/categories_page.dart';
-import 'package:my_sunday_notes_v2/screen/nav_bar/home_page.dart';
-import 'package:my_sunday_notes_v2/screen/nav_bar/privacy_policy.dart';
-import 'package:my_sunday_notes_v2/widget/widget.dart';
+import 'package:mysundaynotes/screen/nav_bar/categories_page.dart';
+import 'package:mysundaynotes/screen/nav_bar/home_page.dart';
+import 'package:mysundaynotes/screen/nav_bar/privacy_policy.dart';
+import 'package:mysundaynotes/widget/widget.dart';
 
 import '../../new_screen/topics_screen.dart';
 

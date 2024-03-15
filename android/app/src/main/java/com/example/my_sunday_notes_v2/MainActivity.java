@@ -1,4 +1,4 @@
-package com.example.my_sunday_notes_v2;
+package com.mysundaynotes;
 
 import io.flutter.embedding.android.FlutterActivity;
 

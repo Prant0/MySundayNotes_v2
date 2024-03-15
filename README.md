@@ -1,4 +1,4 @@
-# my_sunday_notes_v2
+# mysundaynotes
 
 MySundayNotes
 
